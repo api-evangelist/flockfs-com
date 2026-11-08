@@ -1,4 +1,4 @@
-# flockfs-com
+# flockfs
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-flockfs-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://flockfs.com/
+FlockFS provides a real-time, multiplayer filesystem enabling both humans and AI agents to collaboratively edit shared files. The platform offers live synchronization, turn‑taking edits, and undo capabilities, positioning itself as a shared brain for people and their AI agents. It aims to simplify collaborative workflows across distributed teams and autonomous agents.
+
+**Areas:** Company · Real-time · Filesystem · Collaboration · AI
+
+## flockfs on APIs.io
+
+Everything profiled for flockfs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flockfs-com/](https://apis.io/providers/flockfs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [FlockFS API](https://apis.io/apis/flockfs-com/flockfs-api/) — API reference for FlockFS services
+- [flockfs API](https://apis.io/apis/flockfs-com/flockfs-com-api/) — flockfs API as documented publicly: 90 operations. Contract generated from the documentation by API Evangelist (2026-11-08); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiBillingResponse](https://apis.io/schemas/flockfs-com/flockfs-com-get-api-billing-response/)
+- [GetApiMeResponse](https://apis.io/schemas/flockfs-com/flockfs-com-get-api-me-response/)
+- [GetApiSTokenResponse](https://apis.io/schemas/flockfs-com/flockfs-com-get-api-stoken-response/)
+- [PostApiTokensRequest](https://apis.io/schemas/flockfs-com/flockfs-com-post-api-tokens-request/)
+- [PostEntriesRequest](https://apis.io/schemas/flockfs-com/flockfs-com-post-entries-request/)
+- [PostShareLinksResponse](https://apis.io/schemas/flockfs-com/flockfs-com-post-share-links-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Flockfs Com Context](https://apis.io/jsonld/flockfs-com/flockfs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [flockfs API Rules](https://apis.io/rules/flockfs-com/flockfs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flockfs Com Authentication](https://apis.io/security/flockfs-com/flockfs-com-authentication/)
+- [Flockfs Com Domain Security](https://apis.io/security/flockfs-com/flockfs-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flockfs.com/)
+- [Documentation](https://flockfs.com/docs/)
+- [Getting started](https://flockfs.com/docs/agent-setup)
+- [Terms of service](https://flockfs.com/terms/)
+- [Privacy policy](https://flockfs.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 40.5** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flockfs-com/](https://apis.io/providers/flockfs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for flockfs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flockfs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
